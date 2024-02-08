@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Work+Sans:wght@400;600;700&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.cover{
+    display: flex;
+    flex-direction: column;
+    background-image: url(/assets/images/background-pattern-desktop.svg);
+    background-color: hsl(275, 100%, 97%);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: auto;
+    background-size: contain;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start; */
+    background-color: white;
+    border-radius: 1.5rem;
+    padding: 35px;
+    margin: 0px 30%;
+}
+.details1,.details2,.details3,.details4{
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Raleway', sans-serif;
+    display: none;
+    padding: 18px 0px 
+}
+.questions{ 
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Work Sans', sans-serif;
+}
+.head{
+    display: flex;
+
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size:58px;
+    padding-bottom: 10px;
+}
+.wrap{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+span{
+    padding-left:10px ;
+}
+.line{
+    width: auto;
+    height: 1px;
+    background-color: #f5f0f0;
+}
+
