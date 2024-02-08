@@ -3,11 +3,11 @@ function swap(num){
     console.log('hello log');
     if(document.querySelector(`.details${num}`).style.display === 'block'){
         document.querySelector(`.details${num}`).style.display='none';
-        document.querySelector(`#plus${num}`).src="/assets/images/icon-plus.svg";
+        document.querySelector(`#plus${num}`).src="./assets/images/icon-plus.svg";
     }
     else{
         document.querySelector(`.details${num}`).style.display='block';
-        document.querySelector(`#plus${num}`).src="/assets/images/icon-minus.svg";
+        document.querySelector(`#plus${num}`).src="./assets/images/icon-minus.svg";
     }
 }
 
